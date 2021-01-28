@@ -1,14 +1,10 @@
-.projects {
+.projectss {
     background-color: #909090;
-    background-image: url("../images/kcart.png");
+    background-image: url("../images/college.png");
 
     min-height: 100vh;
   
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-}
-.project_description {
-    text-align: center;
-    padding: 0px 100px;
 }

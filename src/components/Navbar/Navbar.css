@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+.navbar {
+    width: 100vw;
+    background-color: transparent;
+    position: fixed;
+}
+.navbar.solid {
+    background-color: black;
+    box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.1);
+}
+.nav-elements {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.nav-elements > p {
+    margin: 10px 30px;
+    cursor: pointer;
+    font-family: 'Poiret One', cursive;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}

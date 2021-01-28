@@ -1,0 +1,21 @@
+.banner_img {
+    width: 100vw;
+    height: 120vh;
+}
+.banner {
+
+  background-image: url("../images/ResumeBanner.jpg");
+
+  min-height: 100vh;
+
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-width: 400px) {
+    .banner {
+        display: none;
+      }
+}
